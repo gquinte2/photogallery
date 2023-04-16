@@ -437,6 +437,7 @@ form {
     margin-left: 160px;
 }
 input[type=submit]{
+    margin-left: 140px;
     width:600px;
 }
 .chile, .hawaii, .italy, .desert{
