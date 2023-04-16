@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 1.25em;
+    line-height: 25px;
+    padding: 30px;
+    margin-bottom: -22px;}
+figcaption, label, input, small {
+    font-size: 1em;}
+nav a {
+    font-size: 1.5em;}
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    color: #007d7b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;}
+h2 {
+    font-size: 2em;
+    margin-bottom: -22px;}
+body {
+    margin: 0 auto;
+    width: 500px;
+}
+.contactform h3 {
+    visibility: hidden;
+}
+label {
+    margin-left: 55px;
+}
+.contactform
+h1, h2, a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a, footer {
+    color:#ffffff;
+    text-decoration: none;
+}
+main {
+    z-index: -1;
+}
+[href="#top"] {
+    z-index: 2;
+    padding: 10px;
+    margin-right: 10px;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border: solid #ffffff;
+    background-color: black;  
+}
+a:hover {
+    color: #007d7b;
+}
+.figure {
+    display: flex;}
+figcaption, form, footer {
+    text-transform: uppercase;
+}
+[type="text"], [type="submit"] {
+        text-transform: uppercase;
+}
+ h2, footer, .contactform p {
+    text-align: center;
+}
+h1, main {
+    background-color: #ffffff;
+}
+.about p, .gallery p {
+    margin-left: -20px;
+    padding-bottom: 10px;
+}
+form {
+    position: relative;
+    height: 400px;
+}
+input[type="text"] {
+    width: 86%;
+    padding: 14px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    margin-left: 40px;
+}
+
+html {
+    background-color: black;
+}
+ h2, figcaption, footer {
+    text-align: center;
+}
+footer {
+    padding-bottom: 10px;
+}
+.contactform {
+    padding-top: 34px;
+    background-color: black;
+    color: #ffffff;
+}
+::placeholder {
+    color: #007d7b;
+    font-weight: bold;
+}
+.photos {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+figcaption {
+    margin-left: -10px;
+}
+img, figcaption {
+    width:420px;
+    padding-bottom: 20px;
+}
+figure {
+    position: relative;
+}
+  .guata, .mountains, .switz, .uk, .usa, .wyoming {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 0px;
+    right: 20px;
+    padding: 0px 0px 120px;
+  }
+.chile {
+    margin-left: -20px;
+}
+.chile, .desert, .hawaii {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 230px 0px 0px;
+}
+.iran, .ireland {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 0px 0px 500px;
+}
+.italy {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 580px 0px 0px;
+}
+.chile, .guata, .hawaii, .desert, .wyoming {
+    color: #ffffff;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+}
+nav {
+    margin-left: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input[type=submit]{
+    margin-left: 150px;
+    padding: 12px 80px;
+    border: none;
+    border-radius: 14px;
+    background-color: #007d7b;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.gallery h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.about h2 {
+    padding-top:10px;
+}
+.contactform h2 {
+    margin-top: -16px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width:880px) {
+
+input[type="text"] {
+    width: 100%;
+    margin-left: 10px;
+}
+label {
+    margin-left: 25px;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+}
+nav, .contactform h2, .contactform p {
+    text-align: center;   
+}
+h1 {
+    text-align: left;
+    color: #007d7b;
+    padding-left: 20px;
+}
+body {
+    width: 780px;
+}
+img, figcaption {
+    margin: 0;
+    padding: 0;
+    width: 370px;
+}
+input[type=submit]{
+    margin-left: 130px;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 14px;
+    width: 430px;
+    font-weight: bold;
+}
+.contactform h2 {
+    padding-top: 30px;
+}
+form {
+    margin-left: 50px;
+    width: 660px;
+}
+.contactform {
+    background-color: black;
+    color: #ffffff;
+    padding-top: 2px;
+}
+.contactform p { 
+    text-align: center;
+}
+.gallery {
+    height: 2285px;
+    padding-top: 20px;   
+} 
+.gallery p{
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+.photos {
+    margin: 0;
+    display: grid;
+    position: absolute;
+    grid-template-areas: 
+       "chile guata      "
+       "hawaii iran      "
+       "ireland italy    "
+       "desert mountains "
+       "switz uk         "
+       "usa wyoming      "
+       ;}
+.one {
+    grid-area: chile;
+    margin-left: 10px;
+}
+.two {
+    grid-area: guata;
+    }
+.three {
+    grid-area: hawaii;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.four {
+    grid-area: iran;
+    margin-top: -2px;
+}
+.five {
+    grid-area: ireland;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.six {
+    grid-area: italy;
+    margin-top:-2px;
+}
+.seven {
+    grid-area: desert;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.eight {
+    grid-area: mountains;
+    margin-top: -2px;
+}
+.nine {
+    grid-area: switz;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.ten {
+    grid-area: uk;
+    margin-top: -2px;
+}
+.eleven {
+    grid-area: usa;
+    margin-left: 10px;
+    margin-top: -2px;
+}
+.twelve {
+    grid-area: wyoming;
+    margin-top: -2px;
+}
+figure {
+    padding-top: 10px;
+    position: relative;
+}
+.one, .three, .five, .seven, .nine,.eleven {
+    padding-right: 20px;
+}
+.guata, .mountains, .switz, .uk, .usa, .wyoming {
+    padding: 10px 0px 160px;
+}
+.chile, .desert, .hawaii {     
+    padding: 210px 0px 0px;
+}
+.iran, .ireland {   
+    padding: 10px 0px 520px;
+}
+.italy {
+    padding: 520px 0px 0px;
+}
+.hawaii, .iran, .italy, .desert {
+    margin-left: -20px;
+}
+.guata, .switz, .uk {
+    margin-left: -10px;
+}
+}
+
+@media screen and (min-width:1300px) {
+nav {
+    text-align: right;
+}
+body {
+    width: 1188px;
+}
+.chile, .desert, .hawaii {
+    padding: 220px 20px 0px;
+}
+.italy {
+    padding: 535px 20px 0px;
+}
+img, figcaption {
+    width: 380px;
+}
+.photos {
+    display: grid;
+    grid-template-areas: 
+    "chile guata hawaii" 
+    "iran ireland italy"
+    "desert mountains switz" 
+    "uk usa wyoming"
+;}
+.gallery {
+    height: 1486px;     
+} 
+.four, .ten {
+    margin-left: 10px;
+}
+.five, .eleven, .nine, .three, .two, .eight, .six, .twelve {
+    margin-left: -6px;
+}
+.gallery h2 {
+    padding-top: 0;
+}
+.gallery p {
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+form {
+    width: 880px;
+    margin-left: 160px;
+}
+input[type=submit]{
+    width:600px;
+}
+.chile, .hawaii, .italy, .desert{
+    margin-left: -35px;
+}
+.ireland {
+    margin-left: -20px;
+}
+.wyoming, .usa {
+    margin-left: -10px;
+}
+
+.three {
+    padding-top: 12px;
+}
+}
+
