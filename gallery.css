@@ -220,7 +220,7 @@ nav {
     padding-bottom: 20px;
 }
 input[type=submit]{
-    margin-left: 150px;
+    margin-left: 140px;
     padding: 12px 80px;
     border: none;
     border-radius: 14px;
@@ -271,7 +271,7 @@ img, figcaption {
     width: 370px;
 }
 input[type=submit]{
-    margin-left: 130px;
+    margin-left: 120px;
     padding: 12px 60px;
     border: none;
     border-radius: 14px;
